@@ -1,0 +1,22 @@
+{
+  "name": "holiwhat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "install": "npm link && npm i -g"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "node-holidayapi": "^1.0.2",
+    "request": "^2.88.0",
+    "yargs": "^12.0.1"
+  },
+  "bin": {
+    "holiwhat": "./index.js"
+  },
+  "devDependencies": {},
+  "description": ""
+}
